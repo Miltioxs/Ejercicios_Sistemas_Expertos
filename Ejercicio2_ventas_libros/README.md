@@ -1,18 +1,16 @@
-#Otro enfoque para optimizar el codigo ventaslibros por Milton Mejia
+# Otro enfoque para optimizar el codigo ventaslibros por Milton Mejia
 #IDE utilizado JuppyterNoteBook
 
 #archivos a utilizar libros_24_meses.txt y catalogo_libros.txt
 
-##Primeros pasos
+## Primeros pasos
 importar las librerias a utilizar: 
-# import time
-# import numpy as np
+#import time
+#import numpy as np
 
 Regla de negocio: Basicamente dentro de libros_24_meses.txt se encuentra un listado de libros vendidos en un periodo de 24 meses, y dentro de catalogo_libros.txt se encuentra como su nombre lo describe un catalago de libros, entonces, lo que se realizara es un codigo que me devuelva la cantidad de libros vendidos durante todo ese periodo, para ello se tiene que consultar los dos archivos antes mencionados.
 
-#Otro enfoque para optimizar el codigo
-#mi propuesta es la siguiente: 
-
+# Otro enfoque para optimizar el codigo,  mi propuesta es la siguiente: 
 
 inicio = time.time() #Aqui se usa el modulo time para calcular el tiempo de ejecucion del codigo
 
