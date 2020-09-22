@@ -1,4 +1,4 @@
-#Sistema de ventas en linea solucion de codigo por Milton Mejia
+# Sistema de ventas en linea solucion de codigo por Milton Mejia
 IDE  utilizado JupyterNotebook
 
 archivo utilizado costos.txt, este archivo se encuentran cada uno de los items que necesitan ser evaluados para determinar una inversion de una tienda de ventas en linea.
@@ -8,7 +8,7 @@ Esta tienda como estrategia de fidelizacion de clientes, para la festividad de l
 
 El programador debera desarrollar 2 propuestas para darle solucion a la regla de negocios antes planteada, este debera corroborar la eficiencia de este codigo en base al tiempo de ejecucion. 
 
-##Primeros Pasos
+## Primeros Pasos
 1. se importar las librerias que utilizaremos, en este caso son las siguientes: 
 
 import time
@@ -20,7 +20,7 @@ with open('costos.txt') as costos: #Aqui se abre  el documento .txt y se le asig
     lista_deseos = list(map(int, costos.read().split('\n'))) # a la variable lista_deseos se #almacena la lectura de los datos que estan en "costos.txt"
     #map(int, costos.read()) esta transformando cada uno de los datos que estan en esa lista en #numeros enteros, por que a la hora de operarlos, me los tomaba como str, entonces asi los #transformo y luego los transformo en forma de una lista con list(map(int, costos.read()))
 
-##Propuesta 1 
+## Propuesta 1 
 
 inicio =time.time() #se calcula el tiempo de inicio desde que se ejecuta el codigo.
 
@@ -37,7 +37,7 @@ print ('El total de la inversion es: ', '$',sum(inversion_tienda)) #se imprime y
 print ('Duracion: {} segundos'.format(time.time() - inicio)) #Aqui se calcula el tiempo final, #invocando el modulo time y restandole  el inicio para calcular el tiempo que duro la ejecucion de #este codigo. 
 
 
-##Propuesta2
+## Propuesta2
 inicio =time.time() #igual que la propuesta 1 se calcula el tiempo inicial de la ejecucion. 
 
 lista_deseos_array = np.array(lista_deseos) #aqui se convierte la lista_deseos en un array, para #poder realizar operaciones de comparacion, exactamente por que me deja utilizar (<=) este tipo de #operadores.
@@ -49,7 +49,7 @@ inversion_tienda = np.sum(inversion_tienda) #Aqui se sobreescribira inversion_ti
 print ('El total de la inversion es: ', '$',inversion_tienda) #Aqui imprimimos de una vez el valor #de inversion_tienda
 print ('Duracion: {} segundos'.format(time.time() - inicio)) #Aqui se calcula el tiempo final, #invocando el modulo time y restandole  el inicio para calcular el tiempo que duro la ejecucion de #este codigo. 
 
-##Conclusion
+## Conclusion
 por pruebas de ambos codigos el que tiene menos tiempo de ejecucion es la Propuesta numero 2, ronda aproximadamente entre 0.5----- y 0.6 ------ Segundos, mientras que la Propuesta numero 1, ronda aproxidamente entre 0.7---- y 0.9 ------  Segundos, entonces, ya que como estamos tomando el tiempo de duracion como calificador para demostrar la eficiencia de ambos codigos, como la Propuesta 2 tiene menor tiempo de ejecucion que la Propuesta numero 1, se puede determinar que la Propuesta 2 es la solucion mas eficiente.
 
 
