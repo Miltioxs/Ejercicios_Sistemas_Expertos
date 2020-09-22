@@ -1,19 +1,19 @@
-#Calculadora en Python, Primer Ejercicio Sistemas Expertos, por Milton Mejia
+# Calculadora en Python, Primer Ejercicio Sistemas Expertos, por Milton Mejia
 
-##Primer paso, estar en el fichero  donde se encuentra la solucion
+## Primer paso, estar en el fichero  donde se encuentra la solucion
 
 El archivo principal para utilizar la Calculadora es Menu_Principal.py
 para ejecutarlo tienes que estar dentro de la ruta de ese fichero por Ej. 
 C:\user\nombre_usuario\ficheros si se esta desde una distribucion de Windows
 nombre_usuario@nombre_equipo:~/Ficheros$ si se esta desde una distribucion de Linux
 
-##Segundo paso, Ejecutar el archivo principal [Menu_Principal.py]
+## Segundo paso, Ejecutar el archivo principal [Menu_Principal.py]
 
 C:\user\nombre_usuario\ficheros\python Menu_Principal.py para usuarios que esten utilizando Windows
 
 nombre_usuario@nombre_equipo:~/Ficheros$python3 Menu_Principal.py 
 
-##Tercer paso, Utilizar la Calculadora
+## Tercer paso, Utilizar la Calculadora
 
 Al ejecutar el Menu_Principal lo primero que aparecera desde la consula es un menu con diferentes opciones a elegir, 
 para operar como suma, resta, multiplicacion, division, etc. y una opcion de terminar el programa, por que al iniciarlo
@@ -21,7 +21,7 @@ este va a estarse ejecutando una y otra vez hasta que el usurio decida dejar de 
 
 Con este codigo lo que se busca es poner en practica la programacion en python, tanto la estructurada como la orientada a objetos
 
-##Explicacion codigo
+## Explicacion codigo
 
 ya como mencione anteriormente se encuentran 2 archivos que son los fundamentales para hacer  funcionar el proyecto de la calculadora Menu_Principal.py y Calculos.py. 
 
@@ -71,5 +71,5 @@ Aqui se puede observar el metodo de raiz, que recibe dos parametros self y numer
 y asi con todas las demas operaciones, practicamente siguen la misma logica, usurio eligio un operacion, entra a buscar el numero al que se le ha asigando esa operacion, el usurio recibe un mensaje de ingresar numeros para realizar la operacion, se crea la instancia, que hace refencia al metodo, el metodo recibe esos datos y realiza la operacion he imprime por pantalla y se repite el ciclo hasta que usuario, escoja la opcion de salir en el menu, que es la que cierra el ciclo. 
 
 
-##Conclusion
+## Conclusion
 La calculadora en python es un ejercicio que nos introduce a este lenguaje multiparadigma que es de alto nivel, para comenzar a programar en este lenguaje considero que es importante hacer este tipo de ejercicio, sobre todo la parte de POO, por que es la supone un mayor desafio, por todo terminos, abstracciones, estructura, etc. considero que se puede mejorar, incluyendo validaciones, y talvez para ver la parte estetica un poco mejor, utilizar la libreria de python tinker para crear una interfaz grafica. 
