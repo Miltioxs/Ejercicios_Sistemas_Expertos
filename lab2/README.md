@@ -23,13 +23,13 @@ hora del último commit, b) un TXT con la direccion de su repositorio.
 
 ## Explicacion del codigo
 
-lo primero se importan las linbrerias de time, time para hacer el calculo del tiempo y determinar el tiempo el que lleva ejecutar el codigo.
+lo primero se importan las librerias de t numpy y time, time para hacer el calculo del tiempo y determinar el tiempo el que lleva ejecutar el codigo, y numpy para hacer una lista de datos ramdon con parametros de una media de 500, escala 30, y la cantidad de datos 10000000
 
 inicio =time.time() #lo utilizo para poder alamacenar el tiempo de ejecucion 
 
 data_menor=[] #en data_menor es una lista donde se estara alamacenando cada uno de los datos que sean menores a 500000.
 
-for datos in range(500,10000000,30): #este for crea datos en un intervalo de 500 a 10000000 con un intervalo de 30, cada uno de estos datos lo esta recoriendo y los esta tomando la variable datos. 
+for datos in random_data: #aqui se recorren los datos anteriormente creados con la funcion de numpy random.normal en la variable datos.
 
 if (datos < 500000):#Este condicional esta evaluando cada uno de los datos, si estos datos son menores a 500000, son alamacenados en la variable data_menor, utilizando la funcion append.
 	data_menor.append(datos)
