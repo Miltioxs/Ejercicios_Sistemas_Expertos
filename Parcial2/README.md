@@ -1,3 +1,4 @@
+# link del video https://www.youtube.com/watch?v=5YEZUZTszdc
 # Resolucion del parcial segundo registro de SE
 
  ESCENARIO PARCIAL:
